@@ -26,8 +26,8 @@ RegisterNetEvent('qw-vaultcodes:client:failedCode', function()
 end)
 
 CreateThread(function() 
-    CreateCodeCheckZone(vector3(254.16, 207.63, 106.29), 'bankcomputer1', 'computer', 'qw-vaultcodes:client:successfulCode', 'qw-vaultcodes:client:failedCode', 'Enter the Code', 'fa-solid da-circle', 'hacking_phone', 'Password')
-    CreateCodeCheckZone(vector3(248.49, 209.65, 106.29), 'bankcomputer2', 'computer', 'qw-vaultcodes:client:successfulCode', 'qw-vaultcodes:client:failedCode', 'Enter the Code', 'fa-solid da-circle', 'hacking_phone', 'Password')
+    exports['qw-accesscodes']:CreateCodeCheckZone(vector3(254.16, 207.63, 106.29), 'bankcomputer1', 'computer', 'qw-vaultcodes:client:successfulCode', 'qw-vaultcodes:client:failedCode', 'Enter the Code', 'fa-solid da-circle', 'hacking_phone', 'Password')
+    exports['qw-accesscodes']:CreateCodeCheckZone(vector3(248.49, 209.65, 106.29), 'bankcomputer2', 'computer', 'qw-vaultcodes:client:successfulCode', 'qw-vaultcodes:client:failedCode', 'Enter the Code', 'fa-solid da-circle', 'hacking_phone', 'Password')
 end)
 ```
 
